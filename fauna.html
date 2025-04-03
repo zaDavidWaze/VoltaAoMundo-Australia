@@ -7,39 +7,57 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="bg-light">
-    <div class="container">
-        <header class="text-center my-4">
+<body class="fauna">
+<nav class="navbar navbar-dark bg-dark shadow-box">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="imagens/bandeira.jpg" alt="Bandeira da Austrália" class="bandeira" height="70">
+    <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+            <li class="nav-item"><a class="nav-link" href="especiarias.html">Especiarias</a></li>
+            <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
+            <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container shadow-box">
+        <header class="bg-dark-section text-center ">
             <h1>A Fauna Australiana</h1>
-            <img src="fauna.jpg" class="img-fluid" alt="Animais da Austrália">
-        </header>
+    
+            <img src="imagens/Australian Outback Adventures_ Explore the Wild.jpeg" class="img-fluid" alt="Animais da Austrália">
         
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
-                    <li class="nav-item"><a class="nav-link" href="especiarias.html">Especiarias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
-                    <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <main class="p-4 bg-white">
+        <main class="bg-dark-section text-center ">
             <h2>A biodiversidade única da Austrália</h2>
             <p>A fauna australiana é uma das mais diversas do mundo, com muitos animais encontrados apenas neste país.</p>
             
             <h3>Animais icônicos</h3>
-            <ul>
-                <li><strong>Canguru</strong> - O símbolo da Austrália, conhecido por sua força e habilidade de saltar longas distâncias.</li>
-                <li><strong>Coala</strong> - Mamífero que se alimenta exclusivamente de folhas de eucalipto e passa a maior parte do tempo dormindo.</li>
-                <li><strong>Diabo-da-tasmânia</strong> - Pequeno marsupial carnívoro encontrado na Tasmânia.</li>
-            </ul>
-            
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="box p-3">
+                        <strong>Canguru</strong> - O símbolo da Austrália, conhecido por sua força e habilidade de saltar longas distâncias.
+                        <br>
+                        <img src="imagens/canguru.jpg" alt="Canguru" class="img-fluid mt-2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box p-3">
+                        <strong>Coala</strong> - Mamífero que se alimenta exclusivamente de folhas de eucalipto e passa a maior parte do tempo dormindo.
+                        <br>
+                        <img src="imagens/coala.jpg" alt="Coala" class="img-fluid mt-2">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="box p-3">
+                        <strong>Diabo-da-tasmânia</strong> - Pequeno marsupial carnívoro encontrado na Tasmânia residente País da Austrália.
+                        <br>
+                        <img src="imagens/tasmania.jpg" alt="Diabo-da-Tasmânia" class="img-fluid mt-2">
+                    </div>
+                </div>
+            </div>
             <h3>Animais perigosos</h3>
             <p>A Austrália também é conhecida por seus animais perigosos, como:</p>
             <table class="table table-bordered">
@@ -52,8 +70,9 @@
             <h3>Preservação da vida selvagem</h3>
             <p>O governo australiano possui diversas iniciativas para a proteção da fauna, incluindo parques nacionais e programas de conservação.</p>
         </main>
+    </header>
         
-        <footer class="text-center p-4 bg-dark text-white">
+        <footer class="text-center p-4 bg-dark">
             <p>&copy; 2025 - Projeto Austrália</p>
         </footer>
     </div>
