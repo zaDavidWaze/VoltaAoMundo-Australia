@@ -30,8 +30,8 @@ body {
   border-radius: 10px;
 }
 .box {
-  background-color: #ffffff; /* Cor de fundo suave */
-  border: 2px solid #b30000; /* Borda verde escura */
+  background-color: #636363; /* Cor de fundo suave */
+  border: 2px solid #700000; /* Borda verde escura */
   border-radius: 10px; /* Bordas arredondadas */
   padding: 15px; /* Espaçamento interno */
   display: inline-block; /* Mantém o tamanho ajustado ao conteúdo */
@@ -131,10 +131,10 @@ body.fauna {
   background-color: #001122;
 }
 .bg-dark-section {
-  background-color: #001122; /* Cor escura parecida com o menu */
-  color: white; /* Deixa o texto branco para contraste */
-  padding: 20px; /* Adiciona um espaçamento interno */
-   /* Bordas arredondadas para um visual suave */
+  background-color: #001122; 
+  color: white; 
+  padding: 20px;
+  
    width: 100%;
    padding: 20px 0;
    margin: 0;
@@ -179,4 +179,21 @@ footer {
   padding: 30px;
   border-radius: 10px;
   box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.5), -10px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.table {
+  background-color: #343a40 !important; 
+  color: white !important;
+}
+.table thead {
+  background-color: #212529 !important; 
+  color: white !important;
+}
+.table tbody tr {
+  background-color: #3d4248 !important;
+}
+.table tbody tr td {
+  color: white !important;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #3d4248 !important;
 }

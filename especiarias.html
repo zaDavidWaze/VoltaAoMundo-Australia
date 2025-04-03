@@ -7,39 +7,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="estilo.css">
 </head>
-<body class="bg-light">
-    <div class="container mt-4">
-        <header class="text-center mb-4">
-            <h1 class="display-4">Especiarias da Austrália</h1>
-            <p class="lead">Descubra os sabores únicos que tornam a culinária australiana tão especial.</p>
-        </header>
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
-                    <li class="nav-item"><a class="nav-link" href="especiarias.html">Especiarias</a></li>
-                    <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
-                    <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <section class="row bg-white p-4 rounded shadow">
+<body class="fauna">
+    <nav class="navbar navbar-dark bg-dark shadow-box">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="imagens/bandeira.jpg" alt="Bandeira da Austrália" class="bandeira" height="70">
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
+                <li class="nav-item"><a class="nav-link" href="especiarias.html">Especiarias</a></li>
+                <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares</a></li>
+                <li class="nav-item"><a class="nav-link" href="fauna.html">Fauna</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+        <div class="container shadow-box">
+            <header class="bg-dark-section text-center ">
+                <h1>Especiarias Australianas</h1>
+        <section class="row  p-4 ">
             <div class="col-md-6 ">
                 <h2>Temperos e Ingredientes Locais</h2>
                 <p>A Austrália possui uma culinária rica em ingredientes nativos, como a "Bush Tucker" – uma seleção de ervas, frutas e especiarias típicas utilizadas pelos aborígenes há milhares de anos.</p>
                 <p>Entre os principais temperos, destacam-se o Lemon Myrtle, o Mountain Pepper e a Semente de Acácia, que trazem sabores únicos às receitas australianas.</p>
             </div>
             <div class="col-md-6 text-center">
-                <img src="../imagens/lemon-myrtle.jpg" class="img-fluid rounded shadow-sm" alt="Lemon Myrtle">
+                <img src="imagens/lemon.jpg" class="img-fluid rounded shadow-sm" alt="Lemon Myrtle">
             </div>
         </section>
 
-        <section class="row mt-4 bg-white p-4 rounded shadow">
+        <section class="row mt-4  p-4 ">
             <div class="col-md-6 text-center">
-                <img src="../imagens/mountain-pepper.jpg" class="img-fluid rounded shadow-sm" alt="Mountain Pepper">
+                <img src="imagens/pimenta.jpg" class="img-fluid rounded shadow-sm" alt="Mountain Pepper">
             </div>
             <div class="col-md-6">
                 <h2>Uso na Gastronomia</h2>
@@ -48,7 +49,7 @@
             </div>
         </section>
 
-        <section class="mt-4 bg-white p-4 rounded shadow">
+        <section class="mt-4  p-4 ">
             <h2>Principais Especiarias</h2>
             <table class="table table-striped">
                 <thead class="thead-dark">
@@ -69,11 +70,7 @@
                         <td>Picante e defumado</td>
                         <td>Carnes, molhos, temperos</td>
                     </tr>
-                    <tr>
-                        <td>Semente de Acácia</td>
-                        <td>Noz e chocolate</td>
-                        <td>Pães, doces, cafés</td>
-                    </tr>
+
                 </tbody>
             </table>
         </section>
