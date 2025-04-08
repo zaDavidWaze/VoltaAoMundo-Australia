@@ -52,11 +52,11 @@ body {
 .title {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
-  font-size: 4rem; /* Aumenta o tamanho */
+  font-size: 4rem; 
   text-align: center;
-  font-weight: bold; /* Deixa mais impactante */
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7); /* Adiciona um efeito de sombra */
-  letter-spacing: 2px; /* Melhora o espaçamento entre as letras */
+  font-weight: bold; 
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
+  letter-spacing: 2px; 
 }
 .nav-link {
   font-size: 1.2rem;
@@ -150,7 +150,6 @@ footer {
   box-shadow: 10px 0px 20px rgba(0, 0, 0, 0.5), -10px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Estilização da tabela */
 .table {
   background-color: #343a40 !important;
   color: white !important;
@@ -172,7 +171,6 @@ footer {
   background-color: #3d4248 !important;
 }
 
-/* Classes específicas para cada página */
 body.cultura, 
 body.especiarias, 
 body.lugares, 
